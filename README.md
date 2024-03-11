@@ -1,6 +1,6 @@
-### ISE 453 - Modeling and Analysis of Supply Chains
+## ISE 453 - Modeling and Analysis of Supply Chains
 
-# Question 8.2
+Question 8.2
 ---
 (9-Node UFLP Instance: Exact) The file 10node.xlsx contains data for a 10-
 node instance of the UFLP, with nodes located on the unit square and I = J, pictured
