@@ -1,5 +1,5 @@
 ### ISE 453 - Modeling and Analysis of Supply Chains
-## Case Study 1
+
 # Question 8.2
 ---
 (9-Node UFLP Instance: Exact) The file 10node.xlsx contains data for a 10-
