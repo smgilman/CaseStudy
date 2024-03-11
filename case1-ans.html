@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>ISE 453 Case Study 1</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <span style="font-family:Times New Roman; font-size:10; font-variant:small-caps">
+<h1 id="ise-453-case-study-1">ISE 453 Case Study 1</h1>
+<h3 id="question-82---uflp">Question 8.2 - <em>UFLP</em></h3>
+</span>
+<span style="font-family:Times New Roman; font-size:10;">
+<ol>
+<li>
+<p>Optimal Locations:<br>
+Facility 1 Open<br>
+Facility 8 Open<br>
+Facility 9 Open</p>
+</li>
+<li>
+<p>Optimal Assignments:<br>
+Facility 1 covers Facilities: 1<br>
+Facility 8 covers Facilities: 2, 4, 6, 7, 8<br>
+Facility 9 covers Facilities: 3, 5, 9</p>
+</li>
+<li>
+<p>Optimal Cost: $1,112.52</p>
+</li>
+</ol>
+</span>
+<span style="font-family:Times New Roman; font-size:10; font-variant:small-caps">
+<h3 id="question-85---pmp">Question 8.5 - <em>pMP</em></h3>
+</span>
+<span style="font-family:Times New Roman; font-size:10;">
+<ol>
+<li>
+<p>Optimal Locations:<br>
+Facility 1 Open<br>
+Facility 7 Open<br>
+Facility 8 Open<br>
+Facility 9 Open</p>
+</li>
+<li>
+<p>Optimal Assignments:<br>
+Facility 1 covers Facilities: 1<br>
+Facility 7 covers Facilities: 2, 4, 7<br>
+Facility 8 covers Facilities: 6, 8<br>
+Facility 9 covers Facilities: 3, 5, 9</p>
+</li>
+<li>
+<p>Optimal Cost: $342.35</p>
+</li>
+</ol>
+</span>
+<span style="font-family:Times New Roman; font-size:10; font-variant:small-caps">
+<h3 id="question-88---sclp">Question 8.8 - <em>SCLP</em></h3>
+</span>
+<span style="font-family:Times New Roman; font-size:10;">
+<ol>
+<li>
+<p>Optimal Locations:<br>
+Facility 1 Open<br>
+Facility 2 Open<br>
+Facility 5 Open<br>
+Facility 6 Open<br>
+Facility 7 Open<br>
+Facility 9 Open</p>
+</li>
+<li>
+<p>Optimal Assignments:<br>
+Facility 1 covers Facilities: 1<br>
+Facility 2 covers Facilities: 2<br>
+Facility 5 covers Facilities: 5<br>
+Facility 6 covers Facilities: 6, 8<br>
+Facility 7 covers Facilities: 4, 7<br>
+Facility 9 covers Facilities: 3, 9</p>
+</li>
+<li>
+<p>Minimal Number of Facilities to Open: 6</p>
+</li>
+</ol>
+</span>
+<span style="font-family:Times New Roman; font-size:10; font-variant:small-caps">
+<h3 id="question-89---mclp">Question 8.9 - <em>MCLP</em></h3>
+</span>
+<span style="font-family:Times New Roman; font-size:10;">
+<ol>
+<li>
+<p>Optimal Locations:<br>
+Facility 1 Open<br>
+Facility 3 Open<br>
+Facility 5 Open<br>
+Facility 6 Open</p>
+</li>
+<li>
+<p>Optimal Assignments:<br>
+Facility 1 covers Facilities: 1<br>
+Facility 3 covers Facilities: 3, 9<br>
+Facility 5 covers Facilities: 5<br>
+Facility 6 covers Facilities: 6, 7, 8</p>
+</li>
+<li>
+<p>Total Demand Covered: 348
+</span></p>
+</li>
+</ol>
+
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+            
+        </body>
+        </html>

@@ -1,0 +1,73 @@
+--------------------------
+|       UFLP Model       |
+--------------------------
+
+UFLP Optimal Locations:
+Facility 1 Open
+Facility 8 Open
+Facility 9 Open
+
+UFLP Optimal Assignments:
+Facility 1 covers Facilities: 1
+Facility 8 covers Facilities: 2, 4, 6, 7, 8
+Facility 9 covers Facilities: 3, 5, 9
+
+UFLP Optimal Cost: $1112.52
+
+--------------------------
+|        pMP Model       |
+--------------------------
+
+pMP Optimal Locations:
+Facility 1 Open
+Facility 7 Open
+Facility 8 Open
+Facility 9 Open
+
+pMP Optimal Assignments:
+Facility 1 covers Facilities: 1
+Facility 7 covers Facilities: 2, 4, 7
+Facility 8 covers Facilities: 6, 8
+Facility 9 covers Facilities: 3, 5, 9
+
+pMP Optimal Cost: $342.35
+
+--------------------------
+|       SCLP Model       |
+--------------------------
+
+SCLP Optimal Locations:
+Facility 1 Open
+Facility 2 Open
+Facility 5 Open
+Facility 6 Open
+Facility 7 Open
+Facility 9 Open
+
+SCLP Optimal Assignments:
+Facility 1 covers Facilities: 1
+Facility 2 covers Facilities: 2
+Facility 5 covers Facilities: 5
+Facility 6 covers Facilities: 6, 8
+Facility 7 covers Facilities: 4, 7
+Facility 9 covers Facilities: 3, 9
+
+SCLP Minimal Number of Facilities to Open: 6
+
+--------------------------
+|       MCLP Model       |
+--------------------------
+
+MCLP Optimal Locations:
+Facility 1 Open
+Facility 3 Open
+Facility 5 Open
+Facility 6 Open
+
+MCLP Optimal Assignments:
+Facility 1 covers Facilities: 1
+Facility 3 covers Facilities: 3, 9
+Facility 5 covers Facilities: 5
+Facility 6 covers Facilities: 6, 7, 8
+
+MCLP Total Demand Covered: 348
