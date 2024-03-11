@@ -1,4 +1,4 @@
-# ISE 453 - Modeling and Analysis of Supply Chains
+# ISE 453 - Modeling and Analysis of Supply Chains -- Case Study 1
 
 Question 8.2
 ---
